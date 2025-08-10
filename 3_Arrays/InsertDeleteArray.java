@@ -4,20 +4,19 @@ public class InsertDeleteArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Step 1: Read initial array size
+        // Read initial array size
         System.out.print("Enter number of elements: ");
         int n = sc.nextInt();
 
-        // Create an array with extra space for insertions
-        int[] arr = new int[100];
+        int[] arr = new int[n];
 
-        // Step 2: Read the initial array elements
+      
         System.out.println("Enter " + n + " elements:");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
 
-        // Step 3: Insert a new element
+        //Insert a new element
         System.out.print("Enter position to insert element: ");
         int pos = sc.nextInt();
 
@@ -31,14 +30,15 @@ public class InsertDeleteArray {
         arr[pos] = val; // Insert the new element at position 'pos'
         n++; // Increase the size of the array
 
-        // Step 4: Print array after insertion
+        // Print array after insertion
         System.out.println("Array after insertion:");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
 
-        // Step 5: Delete an element
+        
+        //Delete an element
         System.out.print("Enter position to delete element: ");
         int delPos = sc.nextInt();
 
@@ -48,7 +48,7 @@ public class InsertDeleteArray {
         }
         n--; // Decrease the size of the array
 
-        // Step 6: Print array after deletion
+        //Print array after deletion
         System.out.println("Array after deletion:");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
