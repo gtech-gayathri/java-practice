@@ -20,9 +20,6 @@ class EvenOddDigitCalc {
         }
 
         System.out.println("Sum of even digits: " + sumEven);
-        System.out.println("Multiplication of odd digits: " + mulOdd);
-
-        sc.close();
     }
 }
 
