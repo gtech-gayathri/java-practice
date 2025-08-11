@@ -4,7 +4,7 @@ The numbers do not need to be adjacent in the array but must be consecutive inte
 */
 
 import java.util.*;
-public class LongestConsecutive {
+public class Longestconsecutive {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
