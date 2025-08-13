@@ -1,5 +1,6 @@
 import java.util.*;
-public class Pattern1 {
+
+public class IncreasingNumberTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
