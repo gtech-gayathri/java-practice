@@ -1,5 +1,6 @@
 import java.util.*;
-public class Pattern3 {
+
+public class NumberTriangleEndsWithOne {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
