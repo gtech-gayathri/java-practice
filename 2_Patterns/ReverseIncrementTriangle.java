@@ -1,12 +1,13 @@
 import java.util.*;
-public class Pattern8 {
+
+public class ReverseIncrementTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of rows: ");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= n; i++) {         // Rows
+        for (int i = 1; i <= n; i++) { // Rows
             for (int j = n; j >= n - i + 1; j--) { // Numbers decreasing in each row
                 System.out.print(j + "\t");
             }
