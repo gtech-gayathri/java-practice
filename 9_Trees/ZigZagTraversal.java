@@ -1,5 +1,4 @@
 // Java Program for Zig-Zag Traversal of a Binary Tree
-// Very simple version: no ArrayList, no Stack, no Deque
 
 // Node structure of a binary tree
 class TreeNode {
